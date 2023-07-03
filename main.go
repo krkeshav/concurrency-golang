@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"concurrency-golang/producer_consumer"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	producer_consumer.StartProducerConsumer()
 }
